@@ -47,7 +47,7 @@ public class CrimeFragment extends Fragment {
             @Override
             public void beforeTextChanged(
                     CharSequence s, int start, int count, int after) {
-// Здесь намеренно оставлено пустое место
+//TODO: Здесь намеренно оставлено пустое место
             }
 
             @Override
@@ -58,7 +58,7 @@ public class CrimeFragment extends Fragment {
 
             @Override
             public void afterTextChanged(Editable s) {
-// И здесь тоже
+//TODO: И здесь тоже
             }
             });
         mDateButton = (Button) v.findViewById(R.id.crime_date);
